@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+}
+.inputs{
+    margin: 1rem 0;   
+}
+#input{
+    width: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.age{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
